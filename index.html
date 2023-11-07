@@ -1,11 +1,607 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html lang="ru">
+  <head>
+    <title>CV3</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Raleway"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li>
+            <a class="link" href="#contacts">Contacts</a>
+          </li>
+          <li>
+            <a class="link" href="#courses">Courses & Workshops</a>
+          </li>
+          <li>
+            <a class="link" href="#skills">Skills</a>
+          </li>
+          <li>
+            <a class="link" href="#education">Education</a>
+          </li>
+          <li>
+            <a class="link" href="#experience">Experience</a>
+          </li>
+          <li>
+            <a class="link" href="#code-example">Code example</a>
+          </li>
+          <li>
+            <a class="link" href="#public-portfolio">Public portfolio</a>
+          </li>
+        </ul>
+      </nav>
+      <div>
+        <img class="header__avatar" src="./assets/avatar.jpg" alt="Avatar" />
+      </div>
+      <section class="header__content content">
+        <h1>Varov Aleksey</h1>
+        <p>
+          I am a fanatical adept of technical creativity, programmer, engineer
+          and researcher, TypeScript stormtrooper in a constant blitzkrieg of
+          self-development on the way to Web Valhalla. 😀
+        </p>
+      </section>
+    </header>
+    <main class="main">
+      <section class="main__content content contacts" id="contacts">
+        <h2>Contacts</h2>
+
+        <ul class="contacts__list">
+          <li>
+            <a class="link" href="https://github.com/alvar91" target="_blank">
+              <i class="fab fa-github-alt"></i>
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="link"
+              href="https://www.linkedin.com/in/alvarprog"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="main__content content" id="courses">
+        <h2>Courses & Workshops</h2>
+        <article class="course">
+          <div class="course__title">
+            <h3>Udacity: Intro to HTML and CSS</h3>
+          </div>
+          <div class="descrition">
+            <p class="descrition__text">
+              Build styled, well-structured websites. Learn how to use HTML5
+              standard to create websites. Understand CSS syntax, selectors, and
+              units. Learn about code editors and a browser's Developer Tools.
+            </p>
+          </div>
+        </article>
+        <article class="course">
+          <div class="course__title">
+            <h3>Udemy: The Web Developer Bootcamp</h3>
+          </div>
+          <div class="descrition">
+            <p class="descrition__text">
+              Learn how to create full-stack web applications from scratch using
+              HTML, CSS, JavaScript, jQuery, VanillaJS, NodeJS, MongoDB.
+            </p>
+          </div>
+        </article>
+        <article class="course">
+          <div class="course__title">
+            <h3>EdX: Web Programming with JavaScript</h3>
+          </div>
+          <div class="descrition">
+            <p class="descrition__text">
+              Learn how to create web apps and prototypes with JavaScript,
+              represent and exchange data using JavaScript Object Notation
+              (JSON), and how to access RESTful APIs on the web.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <section class="main__content content" id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+          <div class="skills__column">
+            <h3>Good knowledge</h3>
+            <ul class="skills__list">
+              <li>HTML5</li>
+              <li>CSS</li>
+              <li>JavaScript ES5/6</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+          <div class="skills__column">
+            <h3>Basic knowledge</h3>
+            <ul class="skills__list">
+              <li>jQuery</li>
+              <li>NodeJS</li>
+              <li>MongoDB</li>
+              <li>TypeScript</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Languages</h3>
+            <p>RU Russian - Native speaker</p>
+            <p>EN English - B1/B2</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="main__content content" id="education">
+        <h2>Education</h2>
+        <div class="school">
+          <span>2023-2023</span> <strong>RS School</strong>
+        </div>
+        <div class="descrition">JS/FE Pre-School 2023 Q2</div>
+      </section>
+
+      <section class="main__content content" id="experience">
+        <h2>Experience</h2>
+        <div class="job-title">
+          <span>06.2023 - 09.2023</span> <strong>RS School</strong><br />
+          <strong>Position:</strong> Student
+        </div>
+        <div>
+          <p><strong>Tech stack:</strong> HTML5 / CSS / JavaScript</p>
+          <ul class="job-description">
+            <li>Develop hometasks for RS School</li>
+            <li>
+              Implement UI (front-end site) based on received graphic design and
+              requirements
+            </li>
+            <li>Co-operate with the frontend-end team</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="main__content content" id="code-example">
+        <h2>Code example</h2>
+        <pre>
+        <code>
+          function hello(name) {
+            console.log(`Hello ${name}`);
+          }
+       </code>
+      </pre>
+      </section>
+
+      <section class="main__content content" id="public-portfolio">
+        <h2>Public portfolio</h2>
+        <table class="table">
+          <tr>
+            <td class="table__item">
+              <a
+                class="link"
+                href="https://rad-speculoos-85741e.netlify.app"
+                title="View project demo"
+              >
+                <img
+                  class="table__image"
+                  src="assets/idex-group.png"
+                  alt="idex-group"
+                />
+              </a>
+            </td>
+            <td>
+              <h2>
+                <a
+                  class="link"
+                  href="https://github.com/alvar91/idex-group-react-hooks-typescript-css"
+                  title="Open repository"
+                  >Idex Group</a
+                >
+              </h2>
+              <p>Calendar, Single Page Application, Popover</p>
+              <p>React, TypeScript</p>
+              <p>«Manager's desktop» — widget for Idex Group</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="table__item">
+              <a
+                class="link"
+                href="https://alvar91.github.io/lanproject-js-html-css"
+                title="View project demo"
+              >
+                <img
+                  class="table__image"
+                  src="assets/lanproject.png"
+                  alt="lanproject"
+                />
+              </a>
+            </td>
+            <td>
+              <h2>
+                <a
+                  class="link"
+                  href="https://github.com/alvar91/lanproject-js-html-css"
+                  title="Open repository"
+                  >Lan Project</a
+                >
+              </h2>
+              <p>Form, Fake Password Asterisks, Debounce</p>
+              <p>JavaScript, HTML, CSS</p>
+              <p>«Lan Project» — test task for Lan Project</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="table__item">
+              <a
+                class="link"
+                href="https://github.com/alvar91/ozon-tech-hw6-vue-vuex-tsx-vuetify"
+                title="Open repository"
+              >
+                <img
+                  class="table__image"
+                  src="assets/ozon-messages.gif"
+                  alt="ozon-messages"
+                />
+              </a>
+            </td>
+            <td>
+              <h2>
+                <a
+                  class="link"
+                  href="https://github.com/alvar91/ozon-tech-hw6-vue-vuex-tsx-vuetify"
+                  title="Open repository"
+                  >Ozon Messages</a
+                >
+              </h2>
+              <p>
+                Virtual Scroll, Single Page Application, Routing, Persistent
+                Storage, Yandex OAuth
+              </p>
+              <p>
+                TypeScript, TSX, Vue, Vue Proxy, Vuex, Vuex Simple, Vue Class
+                Component, Vue Property Decorator, Vue Router, Vuelidate,
+                Vuetify, Vue Notification, VMask, Axios, Swagger Typescript Api
+              </p>
+              <p>«Ozon Messages» — chat rooms with registration and logging</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="table__item">
+              <a
+                class="link"
+                href="https://github.com/alvar91/ozon-tech-hw4-vue-vuex-tsx-tests"
+                title="Open repository"
+              >
+                <img class="table__image" src="assets/hr.gif" alt="HR" />
+              </a>
+            </td>
+            <td>
+              <h2>
+                <a
+                  class="link"
+                  href="https://github.com/alvar91/ozon-tech-hw4-vue-vuex-tsx-tests"
+                  title="Open repository"
+                  >HR</a
+                >
+              </h2>
+              <p>Single Page Application, Routing, Unit testing</p>
+              <p>
+                TypeScript, TSX, Vue, Vuex, Vuex Simple, Vue Class Component,
+                Vue Property Decorator, Vue Router, Jest
+              </p>
+              <p>«HR» — demo of human resource CRM</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="table__item">
+              <a
+                class="link"
+                href="https://634ab0e0aa66ac2336f7991d--delicate-pasca-53d6d9.netlify.app"
+                title="View project demo"
+              >
+                <img
+                  class="table__image"
+                  src="assets/trello.gif"
+                  alt="Trello"
+                />
+              </a>
+            </td>
+            <td>
+              <h2>
+                <a
+                  class="link"
+                  href="https://github.com/alvar91/shri-2022-react-task3"
+                  title="Open repository"
+                  >Trello clone</a
+                >
+              </h2>
+              <p>
+                Single Page Application, React Hooks, React Patterns, Routing,
+                Persistent storage, Drag and drop
+              </p>
+              <p>
+                React, Redux, Redux Toolkit, Reselect, Redux Persist, React Hook
+                Form, React Router, React Toastify, React Beautiful Dnd
+              </p>
+              <p>«Trello clone» — a demo of the Trello</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="table__item">
+              <a
+                class="link"
+                href="https://diploma-skillbox-javascript.web.app"
+                title="View project demo"
+              >
+                <img
+                  class="table__image"
+                  src="assets/instagram.gif"
+                  alt="Instagram"
+                />
+              </a>
+            </td>
+            <td>
+              <h2>
+                <a
+                  class="link"
+                  href="https://github.com/alvar91/instagram-skillbox-diploma-react-hooks-redux-saga-tests"
+                  title="Open repository"
+                  >Instagram clone</a
+                >
+              </h2>
+              <p>
+                Single Page Application, React Hooks, React Patterns, Routing,
+                Unit testing, Integration testing, e2e-testing
+              </p>
+              <p>
+                React, Redux, Redux Saga, React Router, Material UI, Lazyload,
+                Skeleton, Firebase, React Helmet, React Modal, Unsplash API,
+                React Slick Carousel, Jest, Enzyme, Cypress
+              </p>
+              <p>«Instagram clone» — a demo of the Instagram</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="table__item">
+              <a
+                class="link"
+                href="https://github.com/alvar91/coin-scss-js-express"
+                title="Open repository"
+              >
+                <img class="table__image" src="assets/coin.gif" alt="Coin" />
+              </a>
+            </td>
+            <td>
+              <h2>
+                <a
+                  class="link"
+                  href="https://github.com/alvar91/coin-scss-js-express"
+                  title="Open repository"
+                  >Coin.</a
+                >
+              </h2>
+              <p>
+                Progressive web app (persistent storage), CRUD, Websocket, Model
+                View Presenter, Patterns, Single Page Application, Routing, Drag
+                and drop, Charts, e2e-tests
+              </p>
+              <p>
+                NodeJS, Express, HTML, SCSS, JavaScript, ChartJS, Cypress,
+                Yandex maps
+              </p>
+              <p>
+                «Coin.» — a demo of the banking system with authorization,
+                logging, work with accounts and user transactions
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="table__item">
+              <a
+                class="link"
+                href="https://github.com/alvar91/crm-skillbox-js-css-express-mongodb"
+                title="Open repository"
+              >
+                <img
+                  class="table__image"
+                  src="assets/skb-crm.gif"
+                  alt="skb-crm"
+                />
+              </a>
+            </td>
+            <td>
+              <h2>
+                <a
+                  class="link"
+                  href="https://github.com/alvar91/crm-skillbox-js-css-express-mongodb"
+                  title="Open repository"
+                  >Skb CRM</a
+                >
+              </h2>
+              <p>
+                CRUD, Model View Presenter, Patterns, Single Page Application,
+                Routing, Pagination
+              </p>
+              <p>
+                NodeJS, Express, MongoDB, Mongoose, HTML, CSS, JavaScript, IMask
+              </p>
+              <p>
+                «Skb CRM» — Customer Relationship Management service for
+                education system
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="table__item">
+              <a
+                class="link"
+                href="https://alvar91.github.io/stdpls-pug-scss-js"
+                title="View project demo"
+              >
+                <img
+                  class="table__image"
+                  src="assets/stdpls.gif"
+                  alt="stdpls"
+                />
+              </a>
+            </td>
+            <td>
+              <h2>
+                <a
+                  class="link"
+                  href="https://github.com/alvar91/stdpls-pug-scss-js"
+                  title="Open repository"
+                  >SitDownPls</a
+                >
+              </h2>
+              <p>Responsive, Accessibility, Pixel perfect, Perfomance</p>
+              <p>
+                PUG, SCSS, JavaScript, Yandex maps, Swiper, Input mask, Choices,
+                Nouislider, Progressbar, Gulp, Express, Nodemailer
+              </p>
+              <p>
+                «SitDownPls» — a network of furniture and home accessories
+                stores
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="table__item">
+              <a
+                class="link"
+                href="https://alvar91.github.io/blanchard-html-css-js"
+                title="View project demo"
+              >
+                <img
+                  class="table__image"
+                  src="assets/blanchard.gif"
+                  alt="Blanchard"
+                />
+              </a>
+            </td>
+            <td>
+              <h2>
+                <a
+                  class="link"
+                  href="https://github.com/alvar91/blanchard-html-css-js"
+                  title="Open repository"
+                  >Blanchard</a
+                >
+              </h2>
+              <p>Responsive, Accessibility, Pixel perfect, Perfomance</p>
+              <p>
+                HTML, CSS, JavaScript, JQuery, Yandex maps, Swiper slider, Input
+                mask, Just validate, Popper, Simple bar, Tippy
+              </p>
+              <p>«Blanchard» — a demo of an art Gallery</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="table__item">
+              <a
+                class="link"
+                href="https://alvar91.github.io/evklid-js-html-css"
+                title="View project demo"
+              >
+                <img
+                  class="table__image"
+                  src="assets/evklid.gif"
+                  alt="Evklid"
+                />
+              </a>
+            </td>
+            <td>
+              <h2>
+                <a
+                  class="link"
+                  href="https://github.com/alvar91/evklid-js-html-css"
+                  title="Open repository"
+                  >Evklid</a
+                >
+              </h2>
+              <p>Responsive, Accessibility, Pixel perfect, Perfomance</p>
+              <p>HTML, CSS, JavaScript, JQuery, Swiper slider, Tabs, Gulp</p>
+              <p>«Evklid» — a demo of a project company</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="table__item">
+              <a
+                class="link"
+                href="https://alvar91.github.io/lostshirt-html-css-js"
+                title="View project demo"
+              >
+                <img
+                  class="table__image"
+                  src="assets/lostshirt.gif"
+                  alt="Lostshirt"
+                />
+              </a>
+            </td>
+            <td>
+              <h2>
+                <a
+                  class="link"
+                  href="https://github.com/alvar91/lostshirt-html-css-js"
+                  title="Open repository"
+                  >Lostshirt</a
+                >
+              </h2>
+              <p>HTML, CSS, JavaScript, Slider, Isotope</p>
+              <p>«Lostshirt» — a demo of an online t-shirt store</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="table__item">
+              <a
+                class="link"
+                href="https://alvar91.github.io/lagoona-html-css/"
+                title="View project demo"
+              >
+                <img
+                  class="table__image"
+                  src="assets/lagoona.gif"
+                  alt="Lagoona"
+                />
+              </a>
+            </td>
+            <td>
+              <h2>
+                <a
+                  class="link"
+                  href="https://github.com/alvar91/lagoona-html-css"
+                  title="Open repository"
+                  >Lagoona</a
+                >
+              </h2>
+              <p>HTML, CSS</p>
+              <p>«Lagoona» — hotel chain</p>
+            </td>
+          </tr>
+        </table>
+      </section>
+    </main>
+    <footer class="footer">
+      <a class="link" href="https://rs.school/js/">
+        <img class="logo" src="./assets/rs-school.svg" alt="Logo" />
+      </a>
+      <p>
+        Created by:
+        <a class="link" href="https://github.com/alvar91">@alvar91</a>
+        2023
+      </p>
+    </footer>
+  </body>
 </html>
